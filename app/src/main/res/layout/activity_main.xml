@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9ED86"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/istanbul"
+        android:backgroundTint="@color/gray"
+        android:layout_width="match_parent"
+        android:text="İstanbul"
+        android:layout_height="40dp">
+    </Button>
+    <Button
+        android:id="@+id/ankara"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/gray"
+
+        android:text="Ankara"
+        android:layout_height="40dp">
+    </Button>
+    <Button
+        android:id="@+id/elazig"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/gray"
+
+        android:text="Elazığ"
+        android:layout_height="40dp">
+    </Button>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pazartesi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#35CDCD"
+                android:text="Pazartesi" />
+
+            <Button
+                android:id="@+id/btn_sali"
+                android:backgroundTint="#35CDCD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salı" />
+
+            <Button
+                android:id="@+id/btn_carsamba"
+                android:backgroundTint="#35CDCD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Çarşamba" />
+
+            <Button
+                android:id="@+id/btn_persembe"
+                android:backgroundTint="#35CDCD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perşembe" />
+
+            <Button
+                android:id="@+id/btn_cuma"
+                android:backgroundTint="#35CDCD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuma" />
+
+            <Button
+                android:id="@+id/btn_cumartesi"
+                android:backgroundTint="#35CDCD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cumartesi" />
+
+            <Button
+                android:id="@+id/btn_pazar"
+                android:backgroundTint="#35CDCD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pazar" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/city_image"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/default1" />
+
+    <ImageView
+        android:id="@+id/iconimage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/default2" />
+
+    <Button
+        android:id="@+id/degree"
+        android:layout_width="match_parent"
+        android:background="#00FFFFFF"
+        android:textColor="@color/red"
+        android:layout_height="wrap_content"
+        android:text="C" />
+
+    <TextView
+        android:id="@+id/date"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarih" />
+
+    <TextView
+        android:id="@+id/day"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gün" />
+
+    <TextView
+        android:id="@+id/description"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Açıklama" />
+
+
+</LinearLayout>
