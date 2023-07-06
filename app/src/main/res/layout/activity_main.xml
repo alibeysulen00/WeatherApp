@@ -9,30 +9,6 @@
     android:padding="16dp">
 
 
-    <Button
-        android:id="@+id/istanbul"
-        android:backgroundTint="@color/gray"
-        android:layout_width="match_parent"
-        android:text="İstanbul"
-        android:layout_height="40dp">
-    </Button>
-    <Button
-        android:id="@+id/ankara"
-        android:layout_width="match_parent"
-        android:backgroundTint="@color/gray"
-
-        android:text="Ankara"
-        android:layout_height="40dp">
-    </Button>
-    <Button
-        android:id="@+id/elazig"
-        android:layout_width="match_parent"
-        android:backgroundTint="@color/gray"
-
-        android:text="Elazığ"
-        android:layout_height="40dp">
-    </Button>
-
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
@@ -103,15 +79,12 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <ImageView
-        android:id="@+id/city_image"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:src="@drawable/default1" />
+
 
     <ImageView
         android:id="@+id/iconimage"
         android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
         android:layout_height="150dp"
         android:src="@drawable/default2" />
 

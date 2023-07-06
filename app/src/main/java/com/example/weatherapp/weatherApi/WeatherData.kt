@@ -1,4 +1,6 @@
-package com.example.weatherapp
+package com.example.weatherapp.weatherApi
+
+import com.example.weatherapp.weatherApi.Result
 
 data class WeatherData(
     val success: Boolean,

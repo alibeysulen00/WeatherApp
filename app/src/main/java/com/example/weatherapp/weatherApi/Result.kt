@@ -1,4 +1,4 @@
-package com.example.weatherapp
+package com.example.weatherapp.weatherApi
 
 data class Result(
     val date: String,
